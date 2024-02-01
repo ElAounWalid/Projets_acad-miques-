@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+body{font-family: Trattatello, fantasyy;}
+
+a {text-decoration: none;}
+
+
+/* ****************** Nav et header ******************* */
+.header_general{font-size: 86px;font-weight: 500;}
+
+#Douzimg
+{ background: url('douz.jpg') no-repeat center fixed;
+height: 100vh;
+background-size: cover;
+}
+
+
+#AïnDrahamimg
+{ background: url('Aïn_Draham.jpg') no-repeat center fixed;
+height: 100vh;
+background-size: cover;
+}
+
+#Hergla
+{ background: url('Hergla.jpg') no-repeat center fixed;
+height: 100vh;
+background-size: cover;
+}
+
+#SousseCentreimg
+{ background: url('SousseCentre.jpg') no-repeat center fixed;
+height: 100vh;
+background-size: cover;
+
+}
+
+#Tabarkaimg
+{ background: url('tabarka.png') no-repeat center fixed;
+height: 100vh;
+background-size: cover;
+}
+
+#Faouarimg
+{ background: url('faouar.jpg') no-repeat center fixed;
+height: 100vh;
+background-size: cover;
+}
+
+#navbar
+{
+	display: flex;
+	justify-content: space-between;
+	background-color: #ffb42a;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+}
+
+#logo{display: flex;}
+
+.logo_titre,#navbar a{font-family:Brush Script MT, Brush Script Std, cursive; font-size: 20px;}
+.header_general{font-family:Brush Script MT, Brush Script Std, cursive; font-size: 70px;}
+#navbar ul li a,.logo_titre{color: #1d1d1d;}
+
+.textIntro, .header{color: #fff;}
+
+#barre_nav ul
+{
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+}
+#logo img{width: 40px;height: 26px;}
+
+#logo,#barre_nav ul li a{padding: 12px;margin: 0 6px;}
+
+#barre_nav ul li {height: 40px;line-height: 40px;}
+
+#barre_nav ul li a:hover
+{
+	color: #ffb42a;
+	background-color: #1d1d1d;
+	border-radius: 4px;
+}
+
+#barre_nav ul li ul li{display: none;color: #1d1d1d;}
+
+#barre_nav ul li ul{display: list-item;}
+
+#barre_nav ul li:hover ul li {display: block;}
+
+
+.header .contenu_header
+{
+	background-color: #00000065;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 35px;
+}
+
+.header .contenu_header .header_general{padding-bottom: 12px;}
+
+#paragraphe1{font-size: 22px; margin-bottom: 22px; }
+
+/* ****************** ParagraphePresetation ******************* */
+#textPresentation
+{
+	margin-left: 130px;
+	margin-right: 80px;
+	text-align: justify;
+	padding-top: 18px ;
+	font-size: 20px;
+	font-family: 'Saira Condensed', sans-serif;
+}
+#textPresentation a{color: #ffb42a;}
+
+#titre_partie,#titre_Generale
+{
+	color: red;
+	text-align: center;
+	padding: 25px;
+}
+
+/* ****************** Act_Presetation ******************* */
+
+#Avtivitées{margin-top: 20px;padding-top: 20px ;display: flex;justify-content: space-between;background: #1d1d1d}
+
+#PresActivitées
+{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 30px ;
+	justify-content: space-around;
+	width: 70%;
+	
+}
+
+.PresActs P
+{
+	width: 360px;
+	color:  #fff;
+	padding-bottom: 20px;
+	padding-top: 10px;
+	text-align: justify;
+	font-size: 20px;
+}
+.PresActs img
+{
+	width: 350px;
+	height: 250px;
+	border-radius: 5px;
+	
+}
+
+h4{
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+	text-align: center;
+	padding-top: 10px;
+	color: #ffb42a;
+
+}
+
+/* ****************** footer ******************* */
+
+footer
+{
+	background-color: #ffb42a;
+	color: #1d1d1d;
+	text-align: center;
+	clear: both;
+
+}
+footer h2
+{
+	font-family: 'Lobster', cursive;
+}
+.reseux_sociaux img{height: 50px;width: 50px;}
+
+
+/* ****************** Localisation ******************* */
+
+aside
+{
+
+	align-self: center;
+	display: flex;
+	flex-direction: column;
+	padding: 30px;
+	font-size: 30px;	
+	align-items: flex-end;
+	height: 100%;
+}
+
+iframe{ margin-bottom: 20px;}
+
+
+#avis{background: #1d1d1d;}
+
+table 
+{
+    margin: 0 auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 800px;
+    width: 80%;
+    height: 40%;
+    margin-top: 100px;
+    text-align: cnter;
+    color: #fff;
+}
+
+
+table thead tr {
+    background-color: #ffb42a;
+    color: #fff;
+    text-align: center;
+}
+table th, table td {
+    padding: 20px 25px;
+    max-width: 50px;
+
+}
+table td 
+{
+	text-align: justify;
+}
+table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+
+table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+
+table tbody tr.smile img {
+    width: 35px;
+    height: 15px;
+}
+
